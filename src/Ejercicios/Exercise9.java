@@ -7,6 +7,7 @@ public class Exercise9 {
 
     public Exercise9(int number) {
         this.number = number;
+        this.valueX();
     }
 
     public int getNumber() {

@@ -33,11 +33,9 @@ public class ejercicio21 {
         totalCost = baseCost;
         if (bacon) {
             totalCost += 3000;
-        }
-        if (turkey) {
+        } else if (turkey) {
             totalCost += 3000;
-        }
-        if (cheese) {
+        }else if (cheese){
             totalCost += 2500;
         }
     }

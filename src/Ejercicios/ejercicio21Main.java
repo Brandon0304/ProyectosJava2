@@ -19,6 +19,5 @@ public class ejercicio21Main {
         } else {
             JOptionPane.showMessageDialog(null, "The total cost for your order is: $" + costoTotal);
         }
-
     }
 }

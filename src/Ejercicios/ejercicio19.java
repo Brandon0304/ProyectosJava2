@@ -15,13 +15,13 @@ public class ejercicio19 {
         this.modelNumber = modelNumber;
     }
 
-    public boolean isDefective() {
+    public String isDefective() {
         int[] defectiveModels = {119, 179, 189, 190, 191, 192, 193, 194, 195, 221, 780};
         for (int model : defectiveModels) {
             if (modelNumber == model) {
-                return true;
+                return "Yes, it is";
             }
         }
-        return false;
+        return "No, it is not";
     }
 }

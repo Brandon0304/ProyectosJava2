@@ -7,12 +7,6 @@ public class Exercise9Main {
         String numeroStr = JOptionPane.showInputDialog("Type your number");
         int numero = Integer.parseInt(numeroStr);
 
-
         Exercise9 num = new Exercise9(numero);
-
-        String mensaje = num.valueX();
-
-        JOptionPane.showMessageDialog(null, mensaje);
-
     }
 }

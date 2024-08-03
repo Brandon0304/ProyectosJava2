@@ -7,8 +7,7 @@ public class ejercicio19Main {
 
         ejercicio19 automovil = new ejercicio19(modelNumber);
 
-        boolean esDefectuoso = automovil.isDefective();
+        String esDefectuoso = automovil.isDefective();
         JOptionPane.showMessageDialog(null, "Is the car defective?: "+esDefectuoso);
     }
-
 }
